@@ -1,13 +1,13 @@
 #' The Ian Parker East African Elephant Data Set
 #' 
-#' East African elephant (Loxodonta africana) biological data from 3,175 field record sheets. The data were recorded from 1965 to 1969 during herd culling designed to mitigate elephant herd overpopulation at multiple environmentally stressed national park sites
+#' East African elephant (Loxodonta africana) biological data from 3,175 field record sheets. The data were recorded from 1965 to 1969 during herd culling designed to mitigate elephant herd overpopulation at multiple environmentally stressed national park sites. 
 #' 
 #' @docType data
-#' @name SaratogaHouses
-#' @usage data(SaratogaHouses)
-#' @format  A data frame with 1728 observations on the following 16 variables.
+#' @name ea_elephants
+#' @usage data(ea_elephants)
+#' @format  A data frame with 3307 observations on the following 100 variables.
 #' \itemize{
-#' \item{\code{price}}{ price (US dollars)}
+#' \item{\code{Template_ID}}{ Internal variable indicates REDCap online template version employed by transcriber.}
 #' \item{\code{lotSize}}{ size of lot (acres)}
 #' \item{\code{age}}{ age of house (years)}
 #' \item{\code{landValue}}{ value of land (US dollars)}
