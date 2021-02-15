@@ -37,7 +37,7 @@
 #' }
 #' @source 
 #' Data collected by Candice Corvetti and used in the "Stat 101" case study 
-#' "How much is a Fireplace Worth".  
+#' "BLABLABLA".  
 #' See also 
 #' <https://www.saratogacountyny.gov/departments/real-property-tax-service-agency/>
 "ea_elephants"
