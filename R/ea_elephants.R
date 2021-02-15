@@ -29,3 +29,4 @@
 #' "How much is a Fireplace Worth".  
 #' See also 
 #' <https://www.saratogacountyny.gov/departments/real-property-tax-service-agency/>
+"ea_elephants"
