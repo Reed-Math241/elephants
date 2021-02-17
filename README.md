@@ -3,7 +3,7 @@
 
 <!-- You'll still need to render `README.Rmd` regularly, to keep `README.md` up-to-date. `devtools::build_readme()` is handy for this.  -->
 
-# ea.elephants
+# Elephants
 
 <!-- badges: start -->
 
@@ -15,7 +15,7 @@ as statistical analysis.
 
 ## Installation
 
-The development version of XXX is available from
+The development version of ea.elephants is available from
 [GitHub](https://github.com/) with:
 
 ``` r
