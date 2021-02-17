@@ -1,6 +1,6 @@
-Package: ea.elephants
+Package: elephants
 Type: Package
-Title: Contains Biological East African Elephant Data
+Title: Contains East African Elephant Biological Data
 Version: 0.1.0
 Author: Cristina Gonzales, Gillian McGinnnis, Paul Nguyen
 Maintainer: Paul Nguyen <paulh_nguyen@yahoo.com>
