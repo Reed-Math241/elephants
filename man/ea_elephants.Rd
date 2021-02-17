@@ -5,36 +5,17 @@
 \alias{ea_elephants}
 \title{The Ian Parker East African Elephant Data Set}
 \format{
-A data frame with 3307 observations on the following 100 variables.
-\itemize{
-\item{\code{Template_ID}}{ Internal variable indicates REDCap online template version employed by transcriber.}
-\item{\code{lotSize}}{ size of lot (acres)}
-\item{\code{age}}{ age of house (years)}
-\item{\code{landValue}}{ value of land (US dollars)}
-\item{\code{livingArea}}{ living are (square feet)}
-\item{\code{pctCollege}}{ percent of neighborhood that graduated college}
-\item{\code{bedrooms}}{ number of bedrooms}
-\item{\code{firplaces}}{ number of fireplaces}
-\item{\code{bathrooms}}{ number of bathrooms (half bathrooms have no shower or tub)}
-\item{\code{rooms}}{ number of rooms}
-\item{\code{heating}}{ type of heating system}
-\item{\code{fuel}}{ fuel used for heating}
-\item{\code{sewer}}{ type of sewer system}
-\item{\code{waterfront}}{ whether property includes waterfront}
-\item{\code{newConstruction}}{ whether the property is a new construction}
-\item{\code{centralAir}}{ whether the house has central air}
-}
+
 }
 \source{
-Data collected by Candice Corvetti and used in the "Stat 101" case study 
-"How much is a Fireplace Worth".  
-See also 
-<https://www.saratogacountyny.gov/departments/real-property-tax-service-agency/>
+{The Ian Parker East African Elephant Data Sheets: A handbook for the transcribed biological data set. 2014.} \url{https://ufdc.ufl.edu/IR00004209/00001}
+Data collected by Wildlife Services, Ltd., Donated to the University of Florida by Ian S.C. Parker in 2010, and transcribed to a machine readable format in 2013.
+"The Ian Parker East African Elephant Data Sheets".
 }
 \usage{
 data(ea_elephants)
 }
 \description{
-East African elephant (Loxodonta africana) biological data from 3,175 field record sheets. The data were recorded from 1965 to 1969 during herd culling designed to mitigate elephant herd overpopulation at multiple environmentally stressed national park sites.
+East African elephant (Loxodonta africana) biological data from 3,175 field record sheets (in some instances, multiple cases were assigned to a single sheet). The data were recorded from 1965 to 1969 during herd culling designed to mitigate elephant herd overpopulation at multiple environmentally stressed national park sites. The data are unique in several ways: the conditions in which such a large number of elephants were represented are unlikely to be reproduced; the sampling represents natural (albeit stressed) family groups rather than trophies or weak animals (as is generally true in managed environments). From The Ian Parker East African Elephant Data Sheets: A handbook for the transcribed biological data set.
 }
 \keyword{datasets}

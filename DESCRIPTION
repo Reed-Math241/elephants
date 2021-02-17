@@ -1,13 +1,12 @@
-Package: pkgDemo
+Package: ea_elephants
 Type: Package
-Title: What the Package Does (Title Case)
+Title: Contains Biological East African Elephant Data
 Version: 0.1.0
-Author: Who wrote it
-Maintainer: The package maintainer <yourself@somewhere.net>
-Description: More about what it does (maybe more than one line)
-    Use four spaces when indenting paragraphs within the Description.
-License: What license is it under?
-Encoding: UTF-8
+Author: Cristina Gonzales, Gillian McGinnnis, Paul Nguyen
+Maintainer: Paul Nguyen <paulh_nguyen@yahoo.com>
+Description: This package contains data from the Ian Parker East African Elephant Data Sheets, containing biological data from 3,175 field record sheets. We also include a description of each variable included in the data.
+License: Creative Commons Attribution Share Alike License
+Encoding: CC BY-SA 3.0
 LazyData: true
 Depends: 
     R (>= 2.10)
