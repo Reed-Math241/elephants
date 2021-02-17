@@ -9,13 +9,13 @@
 
 <!-- badges: end -->
 
-The goal of ea.elephants is to provide a dataset involving elephants\!
-The dataset can be used for data exploration and visualization, as well
-as statistical analysis.
+The goal of the “elephants” package is to provide a dataset involving
+elephants\! The dataset can be used for data exploration and
+visualization, as well as statistical analysis.
 
 ## Installation
 
-The development version of ea.elephants is available from
+The development version of “elephants” is available from
 [GitHub](https://github.com/) with:
 
 ``` r
@@ -26,5 +26,5 @@ devtools::install_github("https://github.com/Reed-Math241/pkgGrpc")
 ## Example
 
 ``` r
-library(ea.elephants)
+library(elephants)
 ```

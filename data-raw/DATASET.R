@@ -3,14 +3,14 @@ library(tidyverse)
 
 # Downloading raw data
 
-ea_elephants_raw <- readr::read_csv(
+elephants_raw <- readr::read_csv(
   "https://ufdcimages.uflib.ufl.edu/IR/00/00/42/09/00001/ParkerElephantData_edition02.csv",
   col_types = cols(Parasites = col_character())
   )
 
 # Wrangling data
 
-ea_elephants <- ea_elephants_raw %>%
+elephants <- elephants_raw %>%
   clean_names() %>%
   mutate(date_collect = as.Date(date_collect, format = "%m/%d/%Y")) %>%
   mutate(across(c(lactating, anestrus, pregnant), na_if, "no data")) %>%
@@ -22,7 +22,7 @@ ea_elephants <- ea_elephants_raw %>%
       ))
     )
 
-ea_elephants <- ea_elephants[1:3306,]
+elephants <- elephants[1:3306,]
 
 
-usethis::use_data(ea_elephants, overwrite = TRUE)
+usethis::use_data(elephants, overwrite = TRUE)

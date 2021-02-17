@@ -3,8 +3,8 @@
 #' East African elephant (Loxodonta africana) biological data from 3,175 field record sheets (in some instances, multiple cases were assigned to a single sheet). The data were recorded from 1965 to 1969 during herd culling designed to mitigate elephant herd overpopulation at multiple environmentally stressed national park sites. The data are unique in several ways: the conditions in which such a large number of elephants were represented are unlikely to be reproduced; the sampling represents natural (albeit stressed) family groups rather than trophies or weak animals (as is generally true in managed environments). From The Ian Parker East African Elephant Data Sheets: A handbook for the transcribed biological data set.
 #' 
 #' @docType data
-#' @name ea_elephants
-#' @usage data(ea_elephants)
+#' @name elephants
+#' @usage data(elephants)
 #' @format  A data frame with 3306 observations on the following 100 variables.
 #' \itemize{
 #' \item{\code{Template_ID}}{ (Template version): Internal variable indicates REDCap online template version employed by transcriber.}
@@ -112,4 +112,4 @@
 #' Data collected by Wildlife Services, Ltd., Donated to the University of Florida by Ian S.C. Parker in 2010, and transcribed to a machine readable format in 2013.
 #' "The Ian Parker East African Elephant Data Sheets".  
 
-"ea_elephants"
+"elephants"
