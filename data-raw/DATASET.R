@@ -22,5 +22,7 @@ ea_elephants <- ea_elephants_raw %>%
       ))
     )
 
+ea_elephants <- ea_elephants[1:3306,]
+
 
 usethis::use_data(ea_elephants, overwrite = TRUE)
