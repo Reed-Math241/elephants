@@ -15,12 +15,12 @@ knitr::opts_chunk$set(
 )
 ```
 
-# Insert Package Name
+# ea.elephants
 
 <!-- badges: start -->
 <!-- badges: end -->
 
-The goal of XXX is to ... Test text.
+The goal of ea.elephants is to provide a dataset involving elephants! The dataset can be used for data exploration and visualization, as well as statistical analysis.
 
 ## Installation
 
@@ -28,13 +28,13 @@ The development version of XXX is available from [GitHub](https://github.com/) w
 
 ``` r
 # install.packages("devtools")
-devtools::install_github("Reed-Math241/pkgDemo")
+devtools::install_github("https://github.com/Reed-Math241/pkgGrpc")
 ```
 ## Example
 
 
 ```{r example}
-library(pkgDemo)
+library(ea.elephants)
 ```
 
 

@@ -1,4 +1,4 @@
-Package: ea_elephants
+Package: ea.elephants
 Type: Package
 Title: Contains Biological East African Elephant Data
 Version: 0.1.0
@@ -6,7 +6,7 @@ Author: Cristina Gonzales, Gillian McGinnnis, Paul Nguyen
 Maintainer: Paul Nguyen <paulh_nguyen@yahoo.com>
 Description: This package contains data from the Ian Parker East African Elephant Data Sheets, containing biological data from 3,175 field record sheets. We also include a description of each variable included in the data.
 License: Creative Commons Attribution Share Alike License
-Encoding: CC BY-SA 3.0
+Encoding: UTF-8
 LazyData: true
 Depends: 
     R (>= 2.10)
