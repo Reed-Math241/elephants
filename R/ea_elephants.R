@@ -66,7 +66,7 @@
 #' \item{\code{Adrenals_wghtR}}{ (Adrenals, right if separate): Original measurement units in grams; no conversion necessary.}
 #' \item{\code{Adrenals_wghtL}}{ (Adrenals, left if separate): Original measurement units in grams; no conversion necessary.}
 #' \item{\code{Adrenals_wghtTot}}{ (Adrenals; total if written as single weight): Original measurement units in grams; no conversion necessary.}
-#' \item{\code{Thyroid}{ (Thyroid): Original measurement units in grams; no conversion necessary.}
+#' \item{\code{Thyroid}}{ (Thyroid): Original measurement units in grams; no conversion necessary.}
 #' \item{\code{Heart_wght}}{ (Heart): Original measurement units in pounds converted to grams during transcription.}
 #' \item{\code{Lungs_trachea}}{ (Lungs & trachea): Original measurement units in pounds converted to grams during transcription.}
 #' \item{\code{Liver_wght}}{ (Liver): Original measurement units in pounds converted to grams during transcription.}
