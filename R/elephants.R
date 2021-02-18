@@ -109,7 +109,17 @@
 #' \item{\code{Aorta_wght}}{ (Aorta lbs.): Original measurement units in pounds converted to grams during transcription.}
 #' }
 #' @source {The Ian Parker East African Elephant Data Sheets: A handbook for the transcribed biological data set. 2014.} \url{https://ufdc.ufl.edu/IR00004209/00001}
-#' Data collected by Wildlife Services, Ltd., Donated to the University of Florida by Ian S.C. Parker in 2010, and transcribed to a machine readable format in 2013.
+#'
+#'  See also:
+#' 
+#' Primary Source
+#' \url{https://ufdc.ufl.edu/AA00013409/00001}
+#' 
+#' Finding Guide
+#' \url{https://findingaids.uflib.ufl.edu/repositories/2/resources/1440/collection_organization#tree::archival_object_272921}
+#' 
+#' Data collected by Ian Parker and Wildlife Services, Ltd., and donated to the University of Florida by Ian S.C. Parker in 2010.  The data were then transcribed by Reboussin, Daniel and Norton, Hannah in 2013.
+#' 
 #' "The Ian Parker East African Elephant Data Sheets".  
 
 "elephants"
