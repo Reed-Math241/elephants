@@ -24,7 +24,7 @@ The goal of the "elephants" package is to provide a dataset involving elephants!
 
 ## Example
 
-```{r example}
+```{r example, message = FALSE, fig.retina = 3}
 library(tidyverse)
 library(elephants)
 
