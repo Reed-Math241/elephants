@@ -27,5 +27,6 @@ Suggests:
   readr,
   dplyr,
   janitor,
-  knitr
+  knitr,
+  ggplot2
 RoxygenNote: 7.1.1
