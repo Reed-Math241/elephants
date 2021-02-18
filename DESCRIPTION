@@ -1,8 +1,21 @@
 Package: elephants
 Type: Package
-Title: Contains East African Elephant Biological Data
+Title: East African Elephant Biological Data
 Version: 0.1.0
-Author: Cristina Gonzales, Gillian McGinnnis, Paul Nguyen
+Authors@R: c(
+  person("Cristina", 
+         "Gonzales",
+         role = c("aut"),
+         email = "gonzalcr@reed.edu"), 
+  person("Gillian", 
+         "McGinnnis",
+         role = c("aut"),
+         email = "gmcginnis@reed.edu"),
+  person("Paul", 
+         "Nguyen",
+         role = c("aut"),
+         email = "paulh_nguyen@yahoo.com")
+  )
 Maintainer: Paul Nguyen <paulh_nguyen@yahoo.com>
 Description: This package contains data from the Ian Parker East African Elephant Data Sheets, containing biological data from 3,175 field record sheets. We also include a description of each variable included in the data.
 License: CC BY-SA 4.0
@@ -10,4 +23,9 @@ Encoding: UTF-8
 LazyData: true
 Depends: 
     R (>= 2.10)
+Suggests:
+  readr,
+  dplyr,
+  janitor,
+  knitr
 RoxygenNote: 7.1.1
