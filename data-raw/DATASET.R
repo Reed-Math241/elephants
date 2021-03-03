@@ -1,5 +1,5 @@
-library(janitor)
 library(tidyverse)
+library(janitor)
 
 # Downloading raw data
 
@@ -12,17 +12,19 @@ elephants_raw <- readr::read_csv(
 
 elephants <- elephants_raw %>%
   clean_names() %>%
-  mutate(date_collect = as.Date(date_collect, format = "%m/%d/%Y")) %>%
-  mutate(across(c(lactating, anestrus, pregnant), na_if, "no data")) %>%
+  mutate(
+    date_collect = na_if(date_collect, "4/2/2014"),
+    date_collect = as.Date(date_collect, format = "%m/%d/%Y"),
+    across(c(lactating, anestrus, pregnant), na_if, "no data")
+  ) %>%
   mutate_at(
     c("lactating", "anestrus", "pregnant"),
-    funs(case_when(
+    list(~ case_when(
       . == "Yes" ~ TRUE,
       . == "No" ~ FALSE
       ))
-    )
-
-elephants <- elephants[1:3306,]
+  ) %>%
+  drop_na(elephant_id)
 
 
 usethis::use_data(elephants, overwrite = TRUE)
