@@ -57,7 +57,7 @@
 #' \item{\code{kidneys_fat_r}}{ (Kidneys, + fat, right if separate): Organ weight with fat if recorded separately, otherwise total given for both below. Original measurement units in pounds or grams converted to grams during transcription where necessary.}
 #' \item{\code{kidneys_fat_l}}{ (Kidneys, + fat, left if separate): Organ weight with fat if recorded separately, otherwise total for both organs. Original measurement units in pounds or grams converted to grams during transcription where necessary.}
 #' \item{\code{kidneys_fat_tot}}{ (Kidneys, + fat; total if written as single weight). Original measurement units in pounds or grams converted to grams during transcription where necessary.}
-#' \item{\code{kidneys_fat_r_2}{ (Kidneys, - fat; weight, right). Organ weight without fat. Original measurement units in pounds or grams converted to grams during transcription where necessary.}
+#' \item{\code{kidneys_fat_r_2}}{ (Kidneys, - fat; weight, right). Organ weight without fat. Original measurement units in pounds or grams converted to grams during transcription where necessary.}
 #' \item{\code{kidneys_fat_l_2}}{ (Kidneys, - fat; weight, left). Organ weight without fat. Original measurement units in pounds or grams converted to grams during transcription where necessary.}
 #' \item{\code{kidneys_fat_tot_2}}{ (Kidneys, - fat; total if written as single weight). Original measurement units in pounds or grams converted to grams during transcription where necessary.}
 #' \item{\code{temporal_gland_r}}{ (Temporal gland, right): Original measurement units in grams; no conversion necessary.}
