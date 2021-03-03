@@ -13,7 +13,7 @@ Authors@R: c(
          email = "gmcginnis@reed.edu"),
   person("Paul", 
          "Nguyen",
-         role = c("aut"),
+         role = c("aut", "cre"),
          email = "paulh_nguyen@yahoo.com")
   )
 Maintainer: Paul Nguyen <paulh_nguyen@yahoo.com>
