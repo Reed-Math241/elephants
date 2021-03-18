@@ -89,5 +89,5 @@ The development version of “elephants” is available from
 
 ``` r
 # install.packages("devtools")
-devtools::install_github("https://github.com/Reed-Math241/pkgGrpc")
+devtools::install_github("https://github.com/Reed-Math241/elephants")
 ```
